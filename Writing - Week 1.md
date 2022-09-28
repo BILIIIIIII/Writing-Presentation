@@ -1,59 +1,76 @@
-# Unix Command Line
+# **Unix Command Line**
 
-> - Shell
-> - Command Line Interface
-> - cara mengakses CLI dan menggunakan terminal
-> - file system structure
+> ## _Shell_
 >
-> - command untuk melihat current working directory
+> ### Secara sederhana, `shell` adalah jenis program komputer yang disebut interpreter baris perintah yang memungkinkan pengguna mengontrol dan berkomunikasi secara efisien dengan sistem operasi mereka dengan `command-line interface`.
+>
+> ## _Command Line Interface_
+>
+> ### adalah `UI (User Interface)` berbasis teks yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer.
+>
+> ## _cara mengakses CLI dan menggunakan terminal_
+>
+> - Akses CLI
+>
+>   wjefdoweihfo
+>
+> - Menggunakan Terminal
+>
+>   adfghjk
+>
+> ## _file system structure_
+>
+> ### File System menyediakan akses yang efisien ke `disk` dengan memungkinkan data disimpan, ditempatkan, dan diambil dengan cara yang nyaman
+>
+> ## _command untuk melihat current working directory_
 >
 > ```
 > pwd
 > ```
 >
-> - command untuk melihat isi sebuah directory
+> ## _command untuk melihat isi sebuah directory_
 >
 > ```
 > ls
 > ```
 >
-> - command untuk berpindah directory
+> ## _command untuk berpindah directory_
 >
 > ```
-> cd
+> cd directory_name
 > ```
 >
-> - command untuk melihat isi files
+> ## _command untuk melihat isi files_
 >
 > ```
 > type
 > ```
 >
-> - command untuk membuat file & direktori
+> ## _command untuk membuat file & direktori_
 >
 > ```
 > mkdir & touch
 > ```
 >
-> - command untuk menyalin file & direktori
+> ## _command untuk menyalin file & direktori_
 >
 > ```
 > cp
 > ```
 >
-> - command untuk memindahkan atau me-rename file > dan direktori
+> ## _command untuk memindahkan atau me-rename file dan direktori_
 >
 > ```
 > mv
 > ```
 >
-> - command untuk menghapus file & direktori
+> ## _command untuk menghapus file & direktori_
 >
 > ```
 > rm
 > ```
 
-# Git & GitHub dasar
+# **Git & GitHub dasar**
 
 > - kenapa Git dan Github tools yang wajib digunakan
 > - perbedaan antara Git dan Github
@@ -63,7 +80,7 @@
 > - mempublish aplikasi ke Github
 > - melakukan cloning Github ke local
 
-# HTML
+# **HTML**
 
 > - peran HTML pada web development
 > - tools pendukung dalam menggunakan HTML
@@ -73,11 +90,11 @@
 > - memahami dan mengimplementasikan semantic HTML
 > - mempublish website sampai ke tahap deployment
 >
-> ```
-> <H1>tes cuy</H1>
-> ```
+>   ```
+>   <H1>tes cuy</H1>
+>   ```
 
-# CSS
+# **CSS**
 
 > - peran CSS pada web development
 > - beberapa cara menyisipkan CSS ke dalam HTML
@@ -86,7 +103,7 @@
 > - menggunakan metode responsive web design menggunakan CSS
 > - menggunakan flexbox
 
-# Algoritma
+# **Algoritma**
 
 > - perbedaan antara Algoritma dan Data Structures
 > - manfaat dari algoritma dan data structure
@@ -97,7 +114,7 @@
 > - menerapkan salah satu algoritma dengan JavaScript
 > - menerapkan salah satu struktur data dengan JavaScript
 
-# Javascript Dasar
+# **Javascript Dasar**
 
 > - peran JavaScript pada web development
 > - menjalankan JavaScript
