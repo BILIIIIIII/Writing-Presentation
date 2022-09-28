@@ -2,19 +2,19 @@
 
 > ## _Shell_
 >
-> ### Secara sederhana, `shell` adalah jenis program komputer yang disebut interpreter baris perintah yang memungkinkan pengguna mengontrol dan berkomunikasi secara efisien dengan sistem operasi mereka dengan `command-line interface`.
+> ### <div align="justify">Secara sederhana, `shell` adalah jenis program komputer yang disebut interpreter baris perintah yang memungkinkan pengguna mengontrol dan berkomunikasi secara efisien dengan sistem operasi mereka dengan `command-line interface`.
 >
 > ## _Command Line Interface_
 >
-> ### adalah `UI (User Interface)` berbasis teks yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer.
+> ### <div align="justify"> CLI adalah `UI (User Interface)` berbasis teks yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer.
 >
 > ## _Cara mengakses CLI dan menggunakan terminal_
 >
-> ### Sebenarnya mengakses CLI bisa dengan beberapa cara,
+> ### <div align="justify">Sebenarnya mengakses CLI bisa dengan beberapa cara,
 >
 > ## _File system structure_
 >
-> ### File System menyediakan akses yang efisien ke `disk` dengan memungkinkan data disimpan, ditempatkan, dan diambil dengan cara yang nyaman
+> ### <div align="justify">File System menyediakan akses yang efisien ke `disk` dengan memungkinkan data disimpan, ditempatkan, dan diambil dengan cara yang nyaman
 >
 > ## _Command untuk melihat current working directory_
 >
@@ -37,7 +37,7 @@
 > ## _Command untuk melihat isi files_
 >
 > ```
-> type file_name.format
+> type <file_name>
 > ```
 >
 > ## _Command untuk membuat file & direktori_
@@ -45,13 +45,13 @@
 > - untuk membuat file
 >
 >   ```
->   touch file_name.format
+>   touch <file_name>
 >   ```
 >
 > - untuk membuat direktori
 >
 >   ```
->   mkdir directory_name.format
+>   mkdir <directory_name>
 >   ```
 >
 > ## _Command untuk menyalin file & direktori_
@@ -59,13 +59,13 @@
 > - untuk menyalin file
 >
 >   ```
->   cp file_name.format
+>   cp <file_name>
 >   ```
 >
 > - untuk menyalin direktori
 >
 >   ```
->   cp directory_name.format
+>   cp <directory_name>
 >   ```
 >
 > ## _Command untuk memindahkan atau me-rename file dan direktori_
@@ -73,13 +73,13 @@
 > - untuk memindahkan atau me-rename file
 >
 >   ```
->   mv file_name.format
+>   mv <file_name>
 >   ```
 >
 > - untuk memindahkan atau me-rename direktori
 >
 >   ```
->   mv directory_name.format
+>   mv <directory_name>
 >   ```
 >
 > ## _Command untuk menghapus file & direktori_
@@ -87,18 +87,36 @@
 > - untuk menghapus file
 >
 >   ```
->   rm file_name.format
+>   rm <file_name>
 >   ```
 >
 > - untuk menghapus direktori
 >
 >   ```
->   rm directory_name.format
+>   rm <directory_name>
 >   ```
 
 # **Git & GitHub dasar**
 
-> - Kenapa Git dan Github tools yang wajib digunakan
+> ## _Kenapa Git dan Github tools yang wajib digunakan_
+>
+> ### Apa itu Git & Github
+>
+> - Git
+>
+>   #### <div align="justify">Git adalah alat DevOps yang digunakan untuk manajemen source code. Git merupakan open-source version control system dan gratis yang digunakan untuk menangani proyek kecil hingga sangat besar secara efisien.
+>
+> - Github
+>   #### <div align="justify">GitHub merupakan perusahaan for-profit yang menawarkan layanan hosting repositori Git berbasis cloud. Pada dasarnya, GitHub membuat lebih mudah bagi individu dan tim untuk menggunakan Git untuk melakukan version control dan kolaborasi.
+>
+> <br>
+>
+> > ### Mengapa kita menggunakan Git?
+> >
+> > #### <div align="justify">Alasan utamanya adalah sepandai apapun programmer, tidak akan mampu untuk mengerjakan semuanya sendiri selamanya. Maka dari itu dengan menggunakan Git & Github akan memudahkan programmer untuk bisa bekerja sama dalam sebuah tim. Tujuan besarnya adalah programmer bisa berkolaborasi dengan programmer lainnya dengan mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
+>
+> <br>
+>
 > - Perbedaan antara Git dan Github
 > - Alur kerja dari Git dan Github
 > - Repository Git
