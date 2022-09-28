@@ -8,63 +8,65 @@
 >
 > ### adalah `UI (User Interface)` berbasis teks yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer.
 >
-> ## _cara mengakses CLI dan menggunakan terminal_
+> ## _Cara mengakses CLI dan menggunakan terminal_
 >
-> - Akses CLI
+> ### Sebenarnya mengakses CLI bisa dengan beberapa cara,
 >
->   wjefdoweihfo
->
-> - Menggunakan Terminal
->
->   adfghjk
->
-> ## _file system structure_
+> ## _File system structure_
 >
 > ### File System menyediakan akses yang efisien ke `disk` dengan memungkinkan data disimpan, ditempatkan, dan diambil dengan cara yang nyaman
 >
-> ## _command untuk melihat current working directory_
+> ## _Command untuk melihat current working directory_
 >
 > ```
 > pwd
 > ```
 >
-> ## _command untuk melihat isi sebuah directory_
+> ## _Command untuk melihat isi sebuah directory_
 >
 > ```
-> ls
+> dir
 > ```
 >
-> ## _command untuk berpindah directory_
+> ## _Command untuk berpindah directory_
 >
 > ```
 > cd directory_name
 > ```
 >
-> ## _command untuk melihat isi files_
+> ## _Command untuk melihat isi files_
 >
 > ```
 > type
 > ```
 >
-> ## _command untuk membuat file & direktori_
+> ## _Command untuk membuat file & direktori_
 >
-> ```
-> mkdir & touch
-> ```
+> - untuk membuat file
 >
-> ## _command untuk menyalin file & direktori_
+>   ```
+>   touch
+>   ```
+>
+> - untuk membuat direktori
+>
+>   ```
+>   mkdir
+>   ```
+>
+> ## _Command untuk menyalin file & direktori_
 >
 > ```
 > cp
 > ```
 >
-> ## _command untuk memindahkan atau me-rename file dan direktori_
+> ## _Command untuk memindahkan atau me-rename file dan direktori_
 >
 > ```
 > mv
 > ```
 >
-> ## _command untuk menghapus file & direktori_
+> ## _Command untuk menghapus file & direktori_
 >
 > ```
 > rm
@@ -72,23 +74,23 @@
 
 # **Git & GitHub dasar**
 
-> - kenapa Git dan Github tools yang wajib digunakan
-> - perbedaan antara Git dan Github
-> - alur kerja dari Git dan Github
+> - Kenapa Git dan Github tools yang wajib digunakan
+> - Perbedaan antara Git dan Github
+> - Alur kerja dari Git dan Github
 > - Repository Git
-> - melakukan commit pada Git
-> - mempublish aplikasi ke Github
-> - melakukan cloning Github ke local
+> - Melakukan commit pada Git
+> - Mempublish aplikasi ke Github
+> - Melakukan cloning Github ke local
 
 # **HTML**
 
-> - peran HTML pada web development
-> - tools pendukung dalam menggunakan HTML
-> - membuat HTML sederhana
-> - menjalankan HTML secara manual dan menggunakan live server dari VS Code
-> - memahami dan mengimplementasikan tag HTML yang populer
-> - memahami dan mengimplementasikan semantic HTML
-> - mempublish website sampai ke tahap deployment
+> - Peran HTML pada web development
+> - Tools pendukung dalam menggunakan HTML
+> - Membuat HTML sederhana
+> - Menjalankan HTML secara manual dan menggunakan live server dari VS Code
+> - Memahami dan mengimplementasikan tag HTML yang populer
+> - Memahami dan mengimplementasikan semantic HTML
+> - Mempublish website sampai ke tahap deployment
 >
 >   ```
 >   <H1>tes cuy</H1>
@@ -96,28 +98,28 @@
 
 # **CSS**
 
-> - peran CSS pada web development
-> - beberapa cara menyisipkan CSS ke dalam HTML
-> - menggunakan sintaks dasar dari CSS
-> - menerapkan styling CSS pada sebuah halaman HTML
-> - menggunakan metode responsive web design menggunakan CSS
-> - menggunakan flexbox
+> - Peran CSS pada web development
+> - Beberapa cara menyisipkan CSS ke dalam HTML
+> - Menggunakan sintaks dasar dari CSS
+> - Menerapkan styling CSS pada sebuah halaman HTML
+> - Menggunakan metode responsive web design menggunakan CSS
+> - Menggunakan flexbox
 
 # **Algoritma**
 
-> - perbedaan antara Algoritma dan Data Structures
-> - manfaat dari algoritma dan data structure
-> - membuat algoritma sederhana
-> - menerapkan algoritma ke dalam bahasa pemrograman
-> - memahami Big O Notation
-> - mempraktikkan pendekatan menyelesaikan suatu masalah untuk diselesaikan melalui program
-> - menerapkan salah satu algoritma dengan JavaScript
-> - menerapkan salah satu struktur data dengan JavaScript
+> - Perbedaan antara Algoritma dan Data Structures
+> - Manfaat dari algoritma dan data structure
+> - Membuat algoritma sederhana
+> - Menerapkan algoritma ke dalam bahasa pemrograman
+> - Memahami Big O Notation
+> - Mempraktikkan pendekatan menyelesaikan suatu masalah untuk diselesaikan melalui program
+> - Menerapkan salah satu algoritma dengan JavaScript
+> - Menerapkan salah satu struktur data dengan JavaScript
 
 # **Javascript Dasar**
 
-> - peran JavaScript pada web development
-> - menjalankan JavaScript
-> - membedakan berbagai tipe data
-> - menggunakan operator
-> - membedakan control flow (conditional dan looping)
+> - Peran JavaScript pada web development
+> - Menjalankan JavaScript
+> - Membedakan berbagai tipe data
+> - Menggunakan operator
+> - Membedakan control flow (conditional dan looping)
