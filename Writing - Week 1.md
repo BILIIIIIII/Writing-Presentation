@@ -37,7 +37,7 @@
 > ## _Command untuk melihat isi files_
 >
 > ```
-> type
+> type file_name.format
 > ```
 >
 > ## _Command untuk membuat file & direktori_
@@ -45,32 +45,56 @@
 > - untuk membuat file
 >
 >   ```
->   touch
+>   touch file_name.format
 >   ```
 >
 > - untuk membuat direktori
 >
 >   ```
->   mkdir
+>   mkdir directory_name.format
 >   ```
 >
 > ## _Command untuk menyalin file & direktori_
 >
-> ```
-> cp
-> ```
+> - untuk menyalin file
+>
+>   ```
+>   cp file_name.format
+>   ```
+>
+> - untuk menyalin direktori
+>
+>   ```
+>   cp directory_name.format
+>   ```
 >
 > ## _Command untuk memindahkan atau me-rename file dan direktori_
 >
-> ```
-> mv
-> ```
+> - untuk memindahkan atau me-rename file
+>
+>   ```
+>   mv file_name.format
+>   ```
+>
+> - untuk memindahkan atau me-rename direktori
+>
+>   ```
+>   mv directory_name.format
+>   ```
 >
 > ## _Command untuk menghapus file & direktori_
 >
-> ```
-> rm
-> ```
+> - untuk menghapus file
+>
+>   ```
+>   rm file_name.format
+>   ```
+>
+> - untuk menghapus direktori
+>
+>   ```
+>   rm directory_name.format
+>   ```
 
 # **Git & GitHub dasar**
 
