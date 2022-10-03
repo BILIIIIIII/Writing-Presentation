@@ -1,23 +1,15 @@
-# **Rangkuman Web Development Basic Week 2**
-
-Web Development Basic merupakan salah satu kegiatan yang ada di Skilvul. Tujuannya untuk berbagi ilmu mengenai apa saja yang dibutuhkan dalam pembuatan sebuah website. 
-
-## **Javascript Dasar**
-
-JavaScript adalah bahasa pemrograman populer yang digunakan untuk membuat situs dengan konten website yang dinamis. 
-
- - **Javascript Scope**
+# _Javascript Scope_
    
    Scope dalam JavaScript mendefinisikan aksesibilitas variabel, objek, dan fungsi.Ada dua jenis cakupan di JavaScript yaitu :
 
-   - **Global Scope**
+ - **Global Scope**
      
      Semua variabel yang dibuat di luar fungsi disebut variabel global JavaScript. Objek semacam itu dapat diakses di seluruh situs web. Global Scope harus mempunyai nama yang unik agar tidak terjadi error.
 
      Contoh Global Scope :
 
      ```javascript
-     let sepatu = "Nike Air Jordan";
+     let sepatu = "Warrior Sparta";
 
      // Variabel sepatu bisa dimanfaatkan disini.
      
@@ -39,13 +31,13 @@ JavaScript adalah bahasa pemrograman populer yang digunakan untuk membuat situs 
      // Variabel sepatu tidak bisa dimanfaatkan disini.
      
      function myShoes(){
-        let sepatu = "Nike Air Jordan";
+        let sepatu = "Warrior Sparta";
      };
 
      // Variabel sepatu tidak bisa dimanfaatkan disini.
      ```
 
- - **Javascript Function**
+ # _Javascript Function_
    
    Fungsi JavaScript adalah blok kode yang dirancang untuk melakukan tugas tertentu Fungsi JavaScript dijalankan ketika "sesuatu" memanggilnya.
 
@@ -71,7 +63,7 @@ JavaScript adalah bahasa pemrograman populer yang digunakan untuk membuat situs 
    40 // return value
    ```
 
- - **Data Type Built in Prototype & Method**
+ # _Data Type Built in Prototype & Method_
 
    Dalam pemrograman, tipe data merupakan konsep penting. Untuk dapat beroperasi pada variabel, penting untuk mengetahui sesuatu tentang tipenya. Tanpa tipe data, komputer tidak dapat menyelesaikan masalah ini dengan baik. Berikut macam-maca data type pada Javascript :
 
@@ -147,7 +139,7 @@ JavaScript adalah bahasa pemrograman populer yang digunakan untuk membuat situs 
 
      console.log(person.detail[0]); // memanggil salah satu properti yang di dalamnya ada sebuah array.
      ```
- - **DOM (Document Object Model)**
+ # _DOM (Document Object Model)_
 
    DOM merupakan kependekan dari Document Object Model, DOM ini yakni object model standar bagi XML dan HTML yang memiliki sifat platform independent. Objek dari dokumen tersebut menyediakan sekumpulan fungsi serta data atau atribut yang dapat dimanfaatkan ketika membuat program Javascript. 
 
@@ -190,7 +182,7 @@ JavaScript adalah bahasa pemrograman populer yang digunakan untuk membuat situs 
      dan memakai event listener.
 
      ```html
-     <h1 class="heading">Halo Guyssssss</h1>
+     <h1 class="heading">HOLAAAAAA</h1>
      <button class="btn">Click Me</button>
      ```
 
@@ -202,14 +194,5 @@ JavaScript adalah bahasa pemrograman populer yang digunakan untuk membuat situs 
         heading.style.backgroundColor = "red";
      });
      ```
-
-     ** sebelum button di click**
-
-     ![Sebelum di Click](/assets/images/dom-before.png)
-
-     **Output sesudah button di click**
-
-     ![Sesudah di Click](/assets/images/dom-after.png)
-
    
   
