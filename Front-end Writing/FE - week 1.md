@@ -96,11 +96,17 @@
 >
 > <br>
 >
-> ### _<div align="justify">Dalam Javascript XML hanya bisa melakukan return 1 element._
+> ### _<div align="justify"> Dalam Javascript XML hanya bisa melakukan return 1 element._
 >
 > <br>
-
-<br>
+>
+> ## _Virtual DOM_
+>
+> ### _<div align="justify"> `Virtual DOM (VDOM)` adalah representasi JavaScript ringan dari Model Objek Dokumen (DOM) yang digunakan dalam kerangka kerja web deklaratif seperti React. Memperbarui DOM virtual relatif lebih cepat daripada memperbarui DOM yang sebenarnya (melalui JavaScript)._
+>
+> ![Virtual DOM](https://www.petanikode.com/img/react/komponen/virtualdom.png)
+>
+> <br>
 
 # **Component**
 
@@ -201,8 +207,19 @@
 > // hasilnya ( My name is `Abil.` My age is `20` years old.)
 >
 > <br>
+
+# Lifecycle Hooks
+
+> ### _<div align="justify"> Lifecycle (Siklus Hidup), Lifecycle pada React Native adalah aktifitas method yang dilakukan oleh React Native ketika aplikasi di > jalankan. Jenis-Jenis Lifecycle React Native._
 >
-> ## _useState_
+> - ### _<div align="justify"> Initialization adalah sebuah siklus React Native untuk menset State dan Props sebelum aplikasi di jalankan._
+> - ### _<div align="justify"> Mounting adalah sebuah siklus ketika aplikasi baru saja di buka ada 2 jenis yaitu componentDidMount() ketika memuat aplikasi sebelum render dilakukan. componentWillMount yaitu siklus setelah render proses dilakukan. Tapi sekarang disarankan kamu menggunakan componentDidmount()._
+> - ### \_<div align="justify"> Updatating yaitu ketika kamu mengubah data yang telah di Mounting.
+> - ### _<div align="justify"> Unmount adalah proses menghancurkan atau mendestroy komponen yang sebelumnya di definisikan._
+>
+> <br>
+>
+> ## _1. useState_
 >
 > ### _<div align="justify">`useState` adalah cara menyimpan variable. Kenapa kitta harus mengunakan usestate? karena di dalam React ada yg namanya `Immutable` atau tidak bisa mengubah data secara langsung._
 >
@@ -223,9 +240,29 @@
 > ### _<div align="justify"> Didalam `useState` terdapat array yang isinya terdapat `[ variableName, setName ]`._
 >
 > ### _<div align="justify"> `variableName` berfungsi untuk menampilkan value saja, sedangkan `setName` untuk mengubah value nya._
+>
+> <br>
+>
+> ## _2. UseEffect_
+>
+> ### _<div align="justify"> `UseEffect` pada React Hooks seperti ComponentDoMount dan ComponentWillUnmount, jadi dengan menggunakan UseEffect penulisan kode nya jadi lebih simple dan clean. `UseEffect` merupakan Hooks yang bisa digunakan untuk menggunakan lifecyle functional component dengan mudah._
+>
+> <br>
+>
+> ## _3. useCallback dan useMemo_
+>
+> ### _<div align="justify"> `useCallback` akan mengembalikan versi panggilan balik dari memoise yang hanya berubah jika salah satu dari dependensi telah berubah._
+>
+> ### _<div align="justify"> Ini berguna ketika meneruskan panggilan balik ke komponen turunan optimal yang mengandalkan kesetaraan referensi untuk mencegah perenderan yang tidak perlu (mis. `ShouldComponentUpdate`)._
+>
+> ### _<div align="justify"> `useMemo`, Mengirim function "create" dan berbagai dependensi._
+>
+> ### _<div align="justify"> `useMemo` hanya akan menghitung ulang nilai memoized ketika salah satu dependensi telah berubah. Optimalisasi ini membantu menghindari perhitungan mahal pada setiap render._
+>
+> <br>
+>
+> ## _4. useRef_
+>
+> ### _<div align="justify"> Refs menyediakan cara untuk mengakses `Node DOM` atau Bereaksi elemen yang dibuat dalam metode render._
 
 <br>
-
-# **Event**
-
-> ### _<div align="justify">`Event` adalah ._
